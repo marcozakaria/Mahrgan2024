@@ -1,32 +1,64 @@
 <!DOCTYPE html>
 <html lang="ar">
-    <style>
-        body{text-align: center; background-color: cornflowerblue;}
-        h1{color: crimson;}
-        h2{color: darkcyan;}
-		Button{
-			width: 130px;
-			height: 35px;
-		}
-    </style>
 <head>
+    <style>
+        nav{
+            background: rgba(0,0,255);
+            width: 100%;
+            height: 92px;
+            position: fixed;
+            border-bottom: 1px solid yellow;
+        }
+        nav ul{
+            float: right;
+            display: flex;
+            list-style: none;
+        }
+        nav ul li a{
+            color: white;
+            line-height: 60px;
+            padding: 12px 30px;
+            font-size: 14px;
+            text-decoration: none;
+            border-radius: 6px;
+            margin-right: 10px;
+        }
+        nav ul li a:hover{
+            background-color: red;
+        }
+        body{background-color: cornflowerblue;}
+        h1{color: crimson; text-align: center;}
+        p{color: white; text-align: center;}
+        img{margin-left: 5px;}
+    </style>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>دير الزجاج</title>
 </head>
 <body>
-    <h1><ins>دير الزجاج</ins></h1>
-    <hr>
-    <img src="photo1.jpg" width="100" height="100"></img>
-    <img src="photo2.jpg" width="100" height="100"></img>
-    <img src="photo3.jpg" width="100" height="100"></img><br>
-    <img src="photo4.jpg" width="100" height="100"></img>
-    <img src="photo5.jpg" width="100" height="100"></img>
-    <img src="photo6.jpg" width="100" height="100"></img>
-</body> 
-<hr>
-<a href="main page .html"><button>الصفحة الرئيسية</button></a><br><br> 
-<a href="links.html"><button>فيديوهات توضيحية عن الدير</button></a><br><br>
-<a href="information.html"><button>معلومات عن الدير</button></a><br><br>
-<a href="content.html"><button>من انا</button></a> <br><br>           
+    <nav>
+        <img src="download.jpeg" width="120px" class="logo">
+        <ul>
+            <li><a href="maim page.html" title="الصفحة الرئيسية">Main page</a></li>
+            <li><a href="Explanatory videos.html" title="فيديوهات توضيحية عن الدير">Videos</a></li>
+            <li><a href="information.html" title="معلومات وتاريخ الدير">Information</a></li>
+            <li><a href="contact me.html" title="من انا">Contact</a></li>
+        </ul>
+    </nav>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <h1 style="text-align: center; font-size: x-large ;"><ins>دير الزجاج</ins></h1>
+    <p dir="rtl" style="text-align: center; font-size: x-large;">هذه بعض الصور من بقايا هذا الدير المندثر</p>
+    <img src="photo1.jpg" width="250" height="250"></img>
+    <img src="photo2.jpg" width="250" height="250"></img>
+    <img src="photo4.jpg" width="250" height="250"></img>
+    <img src="photo3.jpg" width="250" height="250"></img>
+    <img src="photo5.jpg" width="250" height="250"></img>
+    <img src="photo6.jpg" width="250" height="250"></img>
+    <img src="photo7.jpg" width="250" height="250"></img>
+    <img src="photo8.jpeg" width="250" height="250"></img>
+</body>
 </html>
